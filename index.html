@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabbed Resume</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>My Resume</h1>
+        <div class="tabs">
+            <button class="tab-button active" data-tab="about">About Me</button>
+            <button class="tab-button" data-tab="experience">Experience</button>
+            <button class="tab-button" data-tab="education">Education</button>
+            <button class="tab-button" data-tab="skills">Skills</button>
+        </div>
+        <div class="tab-content" id="about">
+            <h2>About Me</h2>
+            <p>Hello! I am a passionate professional with expertise in various domains.</p>
+        </div>
+        <div class="tab-content hidden" id="experience">
+            <h2>Experience</h2>
+            <p>Details about work experience go here.</p>
+        </div>
+        <div class="tab-content hidden" id="education">
+            <h2>Education</h2>
+            <p>Details about educational background go here.</p>
+        </div>
+        <div class="tab-content hidden" id="skills">
+            <h2>Skills</h2>
+            <p>List of skills and competencies go here.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
